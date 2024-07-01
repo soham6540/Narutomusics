@@ -14,13 +14,13 @@ API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","iam_daxx")
+OWNER_USERNAME = getenv("OWNER_USERNAME","@Tanjiro1249")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME" , "Hinata_X_Music_robot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME" , "HINATA")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "tanjiro_x_coder")
+ASSUSERNAME = getenv("ASSUSERNAME" , "@Hinata_assistant")
 # ---------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
@@ -70,8 +70,8 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/qkwkwwkjwjjwh")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/qkwkwwkjwjjwh")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/blade_x_community")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/blade_x_support")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -86,7 +86,7 @@ SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/qkwkwwkjwjjwh")
 # --------------------------------------------------------------------------------
 # --------------------------------------------------------------------------------
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
-AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "9000"))
+AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "60"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "9999999"))
 SONG_DOWNLOAD_DURATION_LIMIT = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "9999999"))
 # --------------------------------------------------------------------------------
