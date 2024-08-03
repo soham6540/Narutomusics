@@ -8,7 +8,7 @@ from .logging import LOGGER
 
 dirr()
 dbb()
-heroku()
+
 
 app = DAXX()
 api = SafoneAPI()
